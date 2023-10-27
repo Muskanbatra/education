@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&display=swap');
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5rem 8rem;
+    font-size: 20px;
+    /* background-color: rgb(220, 193, 246); */
+    background-color: rgb(239, 225, 252);
+    box-shadow: grey;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tab {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
+    color: gray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.logo {
+    color: blueviolet;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    padding-top: 5rem;
+    padding-left: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.para {
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.heading {
+    color: blueviolet;
+    /* color: rgb(173, 103, 173); */
+}
+
+.heading2 {
+    color: grey;
+    font-size: 20px;
+}
+
+.homebutton {
+    padding-top: 1rem;
+    cursor: pointer;
+}
+
+.homebutton button {
+    background: transparent;
+    padding: 1rem 1rem;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 4rem;
+    font-family: monospace;
+}
+
+.image {
+    padding-left: 4rem;
+    padding-top: 4rem;
+}
+
+.image img{
+    width: 45rem;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+      transform: translateY(0);
+    }
+  
+    100% {
+      transform: translateY(-30px);
+    }
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  @keyframes mover {
+    0% {
+      transform: translateY(0);
+    }
+  
+    100% {
+      transform: translateY(-30px);
+    }
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.head {
+    line-height: 2rem;
+    font-size: 22px;
+}
+
+.footer {
+    font-size: 17px;
+    color: gray;
+    margin-top: 70px;
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+}
+
+.servicesheading{
+    color: blueviolet;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 3rem;
+}
+
+.card{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 2rem;
+}
+
+.cardimg{
+    /* width: 10rem; */
 }

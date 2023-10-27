@@ -1,0 +1,107 @@
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+    position: relative;
+}
+
+.icons {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.gmailAccount {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.icontab {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.tabicon {
+    font-size: 1.3rem;
+}
+
+.logintab {
+    padding: 1rem 4rem;
+    box-shadow: 0px 0px 10px -2px black;
+    font-size: 1.5rem;
+    width: 80%;
+    border-radius: 10px;
+
+}
+
+.textfields {
+    padding-top: 1rem;
+}
+
+.forgetPass {
+    padding-top: 2rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.login-btn {
+    text-align: center;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.login-btn button {
+    background-color: #8452F3;
+    padding: 1rem 8rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 40px;
+}
+
+.logintext {
+    padding-top: 2rem;
+    margin-bottom: 0rem;
+    text-align: center;
+}
+
+.logintext span {
+    font-weight: 600;
+    color: blueviolet;
+    font-size: 3rem;
+}
+
+.loginimg img {
+    width: 45rem;
+    height: 28rem;
+}
+
+.loginimg {
+    margin-top: 1rem;
+    padding-left: 2rem;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.loginCom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0rem;
+    width: 100%;
+}
+
+.sidetabCss {
+    background-color: #8452F3;
+    width: 100%;
+}
